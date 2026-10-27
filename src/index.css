@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Slabo+13px&display=swap');
+
+:root {
+	--brand-red: #bc0507;
+	--deep-red: #8f0002;
+	--black: #000000;
+	--charcoal: #151515;
+	--silver: #c0c0c0;
+	--off-white: #f7f7f7;
+	--white: #ffffff;
+	--font-body: "Figtree", sans-serif;
+	--font-data: "Roboto", sans-serif;
+	--font-display: "Slabo 13px", serif;
+	font-family: var(--font-body);
+	color: var(--black);
+	background: var(--off-white);
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	background: var(--off-white);
+}
+
+body {
+	margin: 0;
+	min-width: 320px;
+	background: var(--off-white);
+	color: var(--black);
+	font-family: var(--font-body);
+}
+
+body * {
+	font-family: var(--font-body) !important;
+}
+
+button,
+input,
+textarea,
+select,
+.roboto {
+	font-family: var(--font-data) !important;
+	font-optical-sizing: auto;
+	font-variation-settings: "wdth" 100;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--font-display) !important;
+}
+
+a {
+	color: var(--brand-red);
+}
+
+::selection {
+	background: var(--brand-red);
+	color: var(--white);
+}
